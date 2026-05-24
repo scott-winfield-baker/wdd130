@@ -84,6 +84,7 @@ h1 {
 }
 
 .hero article img {
+    border: 1px solid var(--secondary-color);
     float: right;
     width: 135px;
     height: auto;
@@ -93,7 +94,7 @@ h1 {
 
 h2 {
     top: 20px;
-    padding: 20xp;
+    padding: 10px;
     background-color: var(--accent1-color);
     text-align: center;
 }
