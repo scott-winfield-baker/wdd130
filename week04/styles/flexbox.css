@@ -7,7 +7,12 @@ body {
     border: 3px dashed darkcyan;
     background-color: lightyellow;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    align-items: stretch;
+    align-items: flex-end;
+    
+
 }
 
 .flex-item {
@@ -17,6 +22,7 @@ body {
     padding: 0.5rem;
     background-color: #bbb;
     color: #333;
+    
 }
 
 .item1 {
