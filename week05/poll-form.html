@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form activity</title>
+    <link rel="stylesheet" href="/week05/styles/poll-form.css">
+</head>
+
+<body>
+    <header>WDD | HTML form - User Poll</header>
+    <main>
+
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="browser"> What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="1">Firefox</option>
+                        <option value="2">Edge</option>
+                        <option value="3">Chrome</option>
+                        <option value="4">Safari</option>
+                        <option value="5">Other</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                </div>
+                <div class="form-item">
+                    <label for="feedback">List places you have lived:</label>
+                    <textarea name="feedback" id="feedback" rows="4"
+                      placeholder="City State"></textarea>
+                </div>
+                <button type="submit">Submit Poll</button>
+
+            </fieldset>
+
+        </form>
+    </main>
+    <footer>
+        &copy; 2026 | HTML Form - User Poll Activity | Scott Baker
+    </footer>
+</body>
+
+</html>
