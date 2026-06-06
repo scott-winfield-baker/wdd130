@@ -132,6 +132,7 @@ article {
     margin: 2rem 0 2rem 0;
     width: 100%;
     text-align: center;
+    color: var(--primary-color);
 }
 
 .history img {
