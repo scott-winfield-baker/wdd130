@@ -3,7 +3,7 @@
 
     --secondary-color: #121111;
 
-    --accent1-color: #232837;
+    --accent1-color: #11464f;
 
     --accent2-color: #1f274a;
 
@@ -71,14 +71,14 @@ article {
 
 .hero h1 {
     position: absolute;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     top: 40px;
     width: 100%;
     text-align: center;
     z-index: 2;
     font-size: 3rem;
     text-shadow: 3px 3px 10px var(--accent2-color);
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     opacity: 0.7;
     padding: 15px 40px;
     border-radius: 8px;
@@ -89,8 +89,8 @@ article {
     top: 50%;
     width: 90%;
     z-index: 2;
-    color: var(--primary-color);
-    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
     align-items: center;
     max-width: 760px;
     gap: 1.5rem;
@@ -100,7 +100,7 @@ article {
 .hero article img {
     float: right;
     z-index: 2;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid var(--accent2-color);
     width: 135px;
     height: auto;
     margin: 0 0 10px 15px;
@@ -126,13 +126,13 @@ article {
 .history h2 {
     grid-column: 1/4;
     grid-row: 1;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     font-size: 3rem;
     padding: 15px;
     margin: 2rem 0 2rem 0;
     width: 100%;
     text-align: center;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .history img {
@@ -164,8 +164,8 @@ article {
 .adventure h2 {
     text-align: center;
     margin-bottom: 2rem;
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     padding: 1rem 0;
     font-size: 3rem;
 }
@@ -313,13 +313,13 @@ fieldset {
     display: grid;
     gap: .5rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
+    border: 1px solid var(--secondary-color);
     padding: .5rem;
 }
 
 legend {
     padding: 0.5rem;
-    color: navy;
+    color: var(--accent2-color);
     font-size: 2.0rem;
 }
 
@@ -334,15 +334,15 @@ select,
 textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
-    border: solid 2px black;
+    border: solid 2px var(--accent1-color);
     border-radius: 8px;
 }
 
 button {
     
     margin-top: 0.75rem;
-    background-color: navy;
-    color: #fff;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
     border: none;
     border-radius: .5rem;
     padding: .75rem;
@@ -352,7 +352,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(142, 172, 231);
+    background-color:var(--accent1-color);
 }
 
 .form-item {
