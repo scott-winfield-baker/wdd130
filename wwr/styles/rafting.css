@@ -1,5 +1,5 @@
 :root {
-    --primary-color: rgb(209, 231, 215);
+    --primary-color: #c6ddc6;
 
     --secondary-color: #121111;
 
@@ -10,6 +10,8 @@
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
+
+rgb(209, 231, 215);
 
 * {
     margin: 0;
