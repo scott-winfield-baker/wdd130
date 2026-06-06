@@ -33,41 +33,13 @@ header img {
 
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 2rem;
-    /* Space between menu items */
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1rem;
-}
-
-body {
-    font-family: var(--body-font);
-    color: var(--secondary-color);
-}
-
-header,
 main,
 footer {
     width: 840px;
     margin: 0 auto;
 }
 
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
 
-nav,
-p,
 section,
 article {
     margin: 16px;
