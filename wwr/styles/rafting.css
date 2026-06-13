@@ -485,7 +485,7 @@ button:hover {
 
 .equipment-column {
 
-    margin: 1rem;
+    margin: 0;
 }
 
 .trips-column {
@@ -507,6 +507,6 @@ button:hover {
 .book-button {
     grid-column: span;
     grid-row: 3;
-    width: 100px;
+    width: 200px;
     justify-self: center;
 }
